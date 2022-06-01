@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.151" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/activity_main.xml" value="0.17857142857142858" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/location_rv_item.xml" value="0.15167548500881833" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_gallery.xml" value="0.152" />
-        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/loc.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/location_rv_item.xml" value="0.2" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/menu/main_menu.xml" value="0.11770833333333333" />

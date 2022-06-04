@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    tools:openDrawer="start"
     tools:ignore="HardcodedText">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -31,8 +32,15 @@
                android:layout_height="450dp"
                android:id="@+id/click_image"
                android:layout_marginBottom="10dp"/>-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_on_primary"
+            />
     </LinearLayout>
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"

@@ -16,6 +16,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.navigation.NavigationView
 import java.util.*
 
 
@@ -50,11 +51,16 @@ class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
             someActivityResultLauncher.launch(camera_intent)
         }
         drawerLayout = findViewById(R.id.my_drawer_layout)
+
+
+
         actionBarDrawerToggle =
             ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
 
         with(drawerLayout) { this?.addDrawerListener(actionBarDrawerToggle!!) }
         actionBarDrawerToggle!!.syncState()
+
+
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
@@ -93,11 +99,11 @@ class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
     }
     private fun buildRecyclerView() {
         locationModalArrayList = ArrayList<LocationModal>()
-        locationModalArrayList!!.add(LocationModal("Turkey", "Come to visit Turkey."))
-        locationModalArrayList!!.add(LocationModal("France", "Come to visit France."))
         locationModalArrayList!!.add(LocationModal("Spain", "Come to visit Spain."))
-        locationModalArrayList!!.add(LocationModal("Greece", "Come to visit Greece."))
+        locationModalArrayList!!.add(LocationModal("France", "Come to visit France."))
+        locationModalArrayList!!.add(LocationModal("Turkey", "Come to visit Turkey."))
         locationModalArrayList!!.add(LocationModal("Japan", "Come to visit Japan."))
+        locationModalArrayList!!.add(LocationModal("Greece", "Come to visit Greece."))
         adapter = LocationAdapter(locationModalArrayList, this@MainActivity, this)
         val manager = LinearLayoutManager(this)
         locationRV!!.setHasFixedSize(true)
@@ -127,4 +133,5 @@ class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
         intent.putExtra("position", position)
         startActivity(intent)
     }
+
 }

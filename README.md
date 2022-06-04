@@ -15,3 +15,5 @@ Navigation Drawer
 Sharesheet
 
 UI adaptat pentru landscape mode
+
+Implementat o animatie folosind ObjectAnimator si una folosind MotionLayout

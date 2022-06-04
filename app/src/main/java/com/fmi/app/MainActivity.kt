@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
         locationModalArrayList!!.add(LocationModal("Turkey", "Come to visit Turkey."))
         locationModalArrayList!!.add(LocationModal("Japan", "Come to visit Japan."))
         locationModalArrayList!!.add(LocationModal("Greece", "Come to visit Greece."))
-        adapter = LocationAdapter(locationModalArrayList, this@MainActivity, this)
+        adapter = LocationAdapter(locationModalArrayList!!, this@MainActivity, this)
         val manager = LinearLayoutManager(this)
         locationRV!!.setHasFixedSize(true)
         locationRV!!.layoutManager = manager

@@ -25,13 +25,15 @@
             android:id="@+id/camera_button"
             android:text="Camera" />
 
-        <!--   <ImageView
-               android:layout_marginTop="70dp"
-               android:layout_width="350dp"
-               android:layout_marginLeft="15dp"
-               android:layout_height="450dp"
-               android:id="@+id/click_image"
-               android:layout_marginBottom="10dp"/>-->
+        <Button
+            android:id="@+id/animation_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Animation" />
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"

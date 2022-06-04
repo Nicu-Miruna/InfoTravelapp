@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_animation_scene"
+    tools:context=".AnimationActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOTION LAYOUT"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/airplane_id"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/images"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="OBJECT ANIMATON"
+        tools:layout_editor_absoluteY="675dp"
+        android:layout_gravity="center|bottom"/>
+
+    <ImageView
+        android:id="@+id/airplane1_id"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/airplane"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/cloud_id"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <ImageView
+        android:id="@+id/cloud2_id"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <ImageView
+        android:id="@+id/cloud3_id"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

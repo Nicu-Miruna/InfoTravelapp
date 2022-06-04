@@ -4,17 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.151" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/activity_animation.xml" value="0.17063492063492064" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/activity_main.xml" value="0.17857142857142858" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/app_bar_main.xml" value="0.21957671957671956" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout-land/location_rv_item.xml" value="0.15167548500881833" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_animation.xml" value="0.11200000000000002" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_gallery.xml" value="0.2" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/app_bar_main.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/content_main.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/content_navigation_drawer.xml" value="0.1578125" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/fragment_account.xml" value="0.1203125" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/fragment_first.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/fragment_login.xml" value="0.1578125" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/fragment_settingst.xml" value="0.12135416666666667" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/loc.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/layout/location_rv_item.xml" value="0.2" />
+        <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/menu/activity_main_drawer.xml" value="0.12" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/menu/main_menu.xml" value="0.11770833333333333" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/menu/menu.xml" value="0.1125" />
         <entry key="..\:/Users/40740/AndroidStudioProjects/app2/app/src/main/res/menu/navigation_menu.xml" value="0.11770833333333333" />

@@ -22,7 +22,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
      var camera_open_id: Button? = null
-
+     var animation_id: Button? = null
     /* ImageView click_image_id;*/
     var drawerLayout: DrawerLayout? = null
     var actionBarDrawerToggle: ActionBarDrawerToggle? = null
@@ -43,13 +43,21 @@ class MainActivity : AppCompatActivity(), LocationAdapter.OnNoteListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //camera
         camera_open_id = findViewById<View>(R.id.camera_button) as Button
 
-        /* click_image_id = (ImageView)findViewById(R.id.click_image);*/camera_open_id!!.setOnClickListener {
+
+        camera_open_id!!.setOnClickListener {
             val camera_intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             someActivityResultLauncher.launch(camera_intent)
         }
+        //animation
+        animation_id = findViewById<View>(R.id.animation_button) as Button
+        animation_id!!.setOnClickListener {
+            val animation_intent = Intent(this, AnimationActivity::class.java)
+            startActivity(animation_intent)
+        }
+
         drawerLayout = findViewById(R.id.my_drawer_layout)
 
 
